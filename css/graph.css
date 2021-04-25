@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#graph {
+    border: 1px solid grey;
+    height: 30rem;
+}
+
+#options {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hint {
+    font-size: 0.75rem;
+    color: grey;
+    font-style: oblique;
+}
+
+#note {
+    font-size: 0.875rem;
+}
+
+#typed-text {
+    font-weight: 600;
+}

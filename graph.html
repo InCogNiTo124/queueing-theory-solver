@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Queueing theory solver</title>
-        <meta charset="utf8">
+  <head>
+    <title>Queueing theory solver</title>
+    <meta charset="utf8" />
 
-        <link rel="stylesheet" href="css/graph.css">
+    <link rel="stylesheet" href="css/graph.css" />
 
-        <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-        <script type="module" src="js/graph.js"></script>
-        <script type="module" src="js/solver.js"></script>
-    </head>
-    <body>
-        <div id="graph"></div>
-    </body>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <script type="module" src="js/graph.js"></script>
+    <script type="module" src="js/solver.js"></script>
+  </head>
+  <body>
+    <div id="options">
+      <div>
+        <div class="hint">Press Enter to submit typed value</div>
+        <div id="note">Waiting for action...</div>
+        <div id="typed-text"></div>
+      </div>
+      <div>
+        <span class="hint">Result:</span>
+        <span id="result">___</span>
+        <button type="button" id="btn-solver">Solve</button>
+      </div>
+    </div>
+    <div id="graph"></div>
+  </body>
 </html>
